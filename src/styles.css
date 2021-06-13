@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  font-family: Consolas !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.page-container {
+  background: black !important;
+  color: white !important;
+}
+
+.mat-tab-labels > div {
+  background-color: white;
+  color: black;
+  opacity: 1;
+}
+
+.mat-ink-bar {
+  opacity: 0.2;
+  height: 100% !important;
+  background-color: red !important;
+}
+
+.mat-card,
+.mat-select-value {
+  background: rgb(32, 32, 32) !important;
+  color: rgb(191, 191, 191) !important;
+}
+
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: red !important;
+}
+
+.mat-input-element {
+  caret-color: antiquewhite !important;
+}
+
+.header-container {
+  text-transform: lowercase !important;
+}
+
+.legend-color {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 0 !important;
+}
+
+.content-container {
+  max-width: none !important;
+  width: 100% !important;
+}
